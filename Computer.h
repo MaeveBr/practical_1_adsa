@@ -7,10 +7,7 @@ using namespace std;
 class Computer:public Player{
   public:
   char move;
-  Computer(){
-    move = 'R';
-    name = "Computer";
-  }
+  Computer();
   void makeMove( );
   char return_move( );
   

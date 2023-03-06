@@ -4,7 +4,7 @@ using namespace std;
 #ifndef PLAYER
 #define PLAYER
 class Player{
-  protected:
+  public:
   char move;
   public:
   std::string name;
