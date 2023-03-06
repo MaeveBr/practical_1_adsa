@@ -4,12 +4,12 @@ using namespace std;
 #ifndef PLAYER
 #define PLAYER
 class Player{
-  public:
-  char move;
+//   public:
+//   char move;
   public:
   std::string name;
   virtual void makeMove( ) = 0;
-  virtual char return_move( ) = 0;
+//   virtual char return_move( ) = 0;
   std::string getName();
 };
 #endif
