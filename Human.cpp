@@ -6,9 +6,9 @@ Human::Human(std::string name){
     name = "Human";
   }
 char Human::return_move( ){
-  return move;
+  return H_move;
 }
 void Human::makeMove(){
   std::cout<<"Enter move:"<<std::endl;
-  std::cin >> move;
+  std::cin >> H_move;
 }
