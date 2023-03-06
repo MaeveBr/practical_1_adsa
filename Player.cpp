@@ -4,6 +4,6 @@
 #include <iostream>
 #include <string.h>
 Player::Player(){
-    move = 'S'
+    move = 'S';
 };
 std::string Player::getName(){return name;};
