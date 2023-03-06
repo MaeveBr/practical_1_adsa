@@ -5,6 +5,7 @@ using namespace std;
 #define PLAYER
 class Player{
   public:
+  Player();
   char move;
   public:
   std::string name;
