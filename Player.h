@@ -4,6 +4,8 @@ using namespace std;
 #ifndef PLAYER
 #define PLAYER
 class Player{
+  private:
+  char move;
   public:
   std::string name;
   virtual void makeMove( ) = 0;
