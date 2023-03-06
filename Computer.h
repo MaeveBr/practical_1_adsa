@@ -6,13 +6,12 @@ using namespace std;
 #define COMPUTER
 class Computer:public Player{
   public:
-  std::string name;
   Computer(){
     move = 'R';
+    name = "Computer";
   }
   void makeMove( );
   char return_move( );
-  void getName(std::string name);
   
 };
 

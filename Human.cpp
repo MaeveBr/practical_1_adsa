@@ -11,6 +11,3 @@ void Human::makeMove(){
   std::cout<<"Enter move:"<<std::endl;
   std::cin >> move;
 }
-void Human::getName(std::string name){
-  this->name = name;
-}

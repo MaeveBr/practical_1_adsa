@@ -4,7 +4,7 @@
 #include "Referee.h"
 #include <iostream>
 #include <string.h>
-Referee::Referee( ){};
+R  Referee::Referee( ){};
   Player* Referee::refGame(Player *player1, Player *player2){
     if(player1->move == 'R' && player2->move == 'S'){
       return player1;
