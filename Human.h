@@ -5,8 +5,8 @@ using namespace std;
 #ifndef HUMAN
 #define HUMAN
 class Human:public Player{
-  protected:
   public:
+  char move;
   Human();
   Human(std::string name);
   void makeMove();

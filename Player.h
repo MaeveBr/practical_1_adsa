@@ -5,7 +5,6 @@ using namespace std;
 #define PLAYER
 class Player{
   public:
-  char move;
   std::string name;
   virtual void makeMove( ) = 0;
   virtual char return_move( ) = 0;
