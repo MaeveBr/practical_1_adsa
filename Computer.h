@@ -6,7 +6,7 @@ using namespace std;
 #define COMPUTER
 class Computer:public Player{
   public:
-  char move;
+  char C_move;
   Computer();
   void makeMove( );
   char return_move( );

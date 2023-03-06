@@ -6,7 +6,7 @@ using namespace std;
 #define HUMAN
 class Human:public Player{
   public:
-  char move;
+  char H_move;
   Human();
   Human(std::string name);
   void makeMove();
