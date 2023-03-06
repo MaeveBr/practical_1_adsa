@@ -17,7 +17,14 @@ Referee::Referee( ){};
     }
     if(player1->move == player2->move){
       return nullptr;
-    }else{
+    }
+    if(player2->move == 'R' && player1->move == 'S'){
+      return player2;
+    }
+    if(player2->move == 'S' && player1->move == 'P'){
+      return player2;
+    }
+    if(player2->move == 'P' && player1->move == 'R'){
       return player2;
     }
 
