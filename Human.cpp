@@ -10,5 +10,5 @@ char Human::return_move( ){
 }
 void Human::makeMove(){
   std::cout<<"Enter move:";
-  std::cin >> H_move ;
+  std::cin >> H_move <<std::endl;
 }
