@@ -9,7 +9,6 @@ char Human::return_move( ){
   return H_move;
 }
 void Human::makeMove(){
-  std::cout<<"Enter move:"<<std::endl;
-//   std::cin >> H_move;
-    H_move = 'S';
+  std::cout<<"Enter move:";
+  std::cin >> H_move ;
 }
