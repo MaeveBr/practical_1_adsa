@@ -3,6 +3,8 @@
 #include <string.h>
 Human::Human( ){
   name = "Human";
+  std::cout<<"Enter move:";
+  std::cin >> H_move ;
 }
 Human::Human(std::string name){
   this->name = "Human";
