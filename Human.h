@@ -11,6 +11,7 @@ class Human:public Player{
   Human(std::string name);
   void makeMove();
   char return_move( );
+  std::string getName();
 };
 
 #endif

@@ -3,4 +3,3 @@
 #include "Computer.h"
 #include <iostream>
 #include <string.h>
-std::string Player::getName(){return name;};
