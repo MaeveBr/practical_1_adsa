@@ -6,6 +6,8 @@
 #include <string.h>
 Referee::Referee( ){};
 Player* Referee ::refGame(Player *player1, Player *player2){
+  player1->makeMove();
+  player2->makeMove();
     if(player1->return_move( ) == 'R' && player2->return_move( ) == 'S'){
       return player1;
     }
